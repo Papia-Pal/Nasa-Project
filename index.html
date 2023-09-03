@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Image container -->
+        <section id="current-image-container"></section>
+
+        <!-- Form for the date -->
+        <section class="search">
+            <h3>Search For a Picture of the Day</h3>
+            <form id="search-form">
+                <label for="search-input">Select a date: </label>
+                <input type="date" name="date" id="search-input">
+                <input type="button" value="Search" id = "search">
+            </form>
+        </section>
+
+        <!-- Search history -->
+        <section class="history">
+            <h3>Previous searches</h3>
+            <ul id="search-history"></ul>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
